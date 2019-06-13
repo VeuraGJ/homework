@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style type="text/css">
+.container,.info-team,.exper-team,.skill-team{
+    margin: 0 auto;
+    width:1000px;
+    height:380px;
+}
+ .top{
+    background-image: url(timg.jpg);
+    background-size: cover;
+      width:1000px;
+    height:380px;
+     position:relative;
+    }
+    .top_container{
+        background-color: #000;
+        opacity:0.4;
+        width:1000px;
+        height:380px;
+        color:#FFF;
+    }
+    .nav_list{
+           float:right;
+    }
+
+    .nav_list >ul > li{
+        list-style: none;
+        margin-right: 20px;
+        font-size: 20px;
+        float:left;
+    }
+     .nav_list >ul > li>a{
+        text-decoration: none;
+     }
+    .nav_list >ul > li>a,
+    .nav_list >ul > li>a:hover,
+    .nav_list >ul > li>a:focus{
+     cursor:pointer;
+ }
+     .active{
+        border-bottom: 1px solid #FFF;
+     }
+    .head_info{
+        position: absolute;
+        top: 180px;
+        left:350px;
+         width:300px;
+        height:200px;
+        color:#FFF;
+        font-size:22px;
+    }
+    .info{
+        text-align: center;
+    }
+    .info>span{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .info>p{
+        margin-top: 5px;
+    }
+    .head-img{
+        padding-left: 95px;
+    }
+    #head-img{
+        background-image: url(head.jpg);
+        background-size: cover;
+        width:110px;
+        height:110px;
+        border-radius: 50%;
+        box-shadow: 0 0 10px grey;
+    }
+    .info-content{
+        box-shadow: 0 0 7px grey;
+        height:380px;
+    }
+    .edu-info{
+        float:right;
+        width:500px;
+    }
+    .basic-info{
+        margin-right: 500px;
+        width:500px;
+        margin-top: 10px;
+    }
+    .basic-info>p:first-child{
+        padding-top: 20px;
+    }
+    .edu-info>p:first-child,.basic-info>p:first-child{
+        font-size:24px;
+        font-weight: 600;
+        margin:20px 0 30px 20px;
+    }
+    .edu-info>p>label,.basic-info>p>label{
+        display:inline-block;
+        margin-left: 20px;
+        font-size:16px;
+        font-weight: 600;
+        width:180px;
+    }
+     .edu-info>p>span,.basic-info>p>span{
+        font-size:17px;
+     }
+     .exper1-info{
+        float:right;
+        width:500px;
+    }
+    .exper2-info{
+        margin-right: 500px;
+        width:500px;
+        margin-top: 10px;
+    }
+     .exper2-info>p:first-child{
+        padding-top: 20px;
+    }
+    .exper1-info>p:first-child,.exper2-info>p:first-child{
+        font-size:21px;
+        font-weight: 600;
+        margin:20px 0 10px 20px;
+    }
+    .exper1-info>p,.exper2-info>p{
+        margin-left: 20px;
+    }
+    .exper1-info>p>label,.exper2-info>p>label{
+        display:inline-block;
+        font-size:16px;
+        font-weight: 600;
+        color:#06488f;
+    }
+    .outer{
+        width:500px;
+        height:12px;
+        background-color:#8080809e;
+        float:right;
+            margin-top: 6px;
+    margin-left: 5px;
+    }
+    .inner{
+        width:70%;
+        height:12px;
+        background-color:#df8686fc;
+    }
+    .skill-info{
+        width: 700px;
+    margin-left: 150px;
+    padding-top:30px;
+    }
+    .skill-info>p:first-child{
+        font-size:24px;
+        font-weight: 600;
+       margin-top:10px;
+    }
+    .skill{
+        margin-top:20px;
+    }
+    .skill>span{
+        font-size:20px;
+    }
+.skill-info>div:nth-of-type(2)>.outer>.inner{
+        width:50%;
+    }
+    .skill-info>div:nth-of-type(4)>.outer>.inner{
+        width:40%;
+    }
+</style>
+    </head>
+    <body>
+    <div class="container">
+    <div class="top">
+        <div class="top_container">
+        <div class="nav_list">
+        <ul>
+            <li class="active"><a id="info">Information</a></li>
+            <li><a id="skill">Skills</a></li>
+            <li><a id="exper">Experience</a></li>
+            </ul>
+        </div>
+        </div>
+        <div class="head_info">
+        <div class="head-img"><div id="head-img"></div></div>
+        <div class="info"><span>Sharon Yuan</span><p>Java Development Engineer</p></div>
+        </div>
+    </div>
+    </div>
+    <div  class="info-team" >
+    <div class="info-content">
+     <div class="edu-info">
+           <p> Education Information</p>
+            <p><label>UNIVERSITY:</label><span>South China Agricultural University</span></p>
+            <p><label>TIME:</label><span>2015.09-2019.06</span></p>
+            <p><label>MAJOR:</label><span>Software Engineering</span></p>
+            <p><label>SCHOLARSHIP:</label><span>School Scholarship Third Prize</span></p>
+            <p><label>ENGLISH:</label><span>CET-6</span></p>
+        </div>
+        <div class="basic-info">
+           <p> Basic Information</p>
+           <p> <label>AGE:</label><span>22</span></p>
+            <p><label>EDUCATION:</label><span>Bachelor</span></p>
+            <p><label>PHONE:</label><span>13602804978</span></p>
+            <p><label>EMAIL:</label><span>yuanxiao_r@163.com</span></p>
+            <p><label>ADDRESS:</label><span>ZhuHai City</span></p>
+        </div>
+    </div>
+    </div>
+     <div  class="skill-team" style="display:none;">
+    <div class="info-content">
+     <div class="skill-info">
+     <p>Skill Information</p>
+           <div class="skill">
+             <span>JAVA</span>
+           <div class="outer">
+                   <div class="inner"></div>
+               </div>
+           </div>
+            <div class="skill">
+               <span>HTML+CSS</span>
+               <div class="outer">
+                   <div class="inner"></div>
+               </div>
+           </div>
+            <div class="skill">
+               <span>SQL</span>
+               <div class="outer">
+                   <div class="inner"></div>
+               </div>
+           </div>
+            <div class="skill">
+               <span>JAVASCRIPT</span>
+               <div class="outer">
+                   <div class="inner"></div>
+               </div>
+           </div>
+        </div>
+    </div>
+    </div>
+     <div  class="exper-team" style="display:none;">
+    <div class="info-content">
+     <div class="exper1-info">
+           <p> Project：Hospital Visit System</p>
+            <p><label>Developed Environment:</label><span>MyEclipse、Tomcat、MYSQL</span></p>
+            <p><label>Technology:</label><span>Spring+SpringMVC+MyBatis+JUnit</span></p>
+            <p><label>Project Description:</label><span>Design hospital visits system to achieve functions such as registration, consultation, disease enquiry, medical record entry, medical record management, etc., and improve related management functions such as doctors, medicines, and departments.</span></p>
+            <p><label>Work Description:</label><span>Participate in system design, responsible for the development of the entire DAO layer and part of the Service layer interface and unit testing of DAO with JUnit, the development of the doctor and administrator version of the Controller.</span></p>
+        </div>
+        <div class="exper2-info">
+           <p> Project：Female Sharing Community System</p>
+           <p><label>Developed Environment:</label><span>MyEclipse、Tomcat、MYSQL</span></p>
+            <p><label>Technology:</label><span>Spring+SpringMVC+MyBatis+JUnit+Bootstrap</span></p>
+            <p><label>Project Description:</label><span>Design a female sharing communication system to realize the functions of posting notes, browsing notes, commenting, replying to comments, user attention, etc., and improving the management of notes, users, and reporting information.</span></p>
+            <p><label>Work Description:</label><span>Responsible for the development of the entire system.</span></p>
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript">
+    (function(){
+        var info=document.getElementById("info");
+        var infoTeam=document.getElementsByClassName("info-team")[0];
+        var infoParent=info.parentNode;
+        var skill=document.getElementById("skill");
+        var skillParent=skill.parentNode;
+         var skillTeam=document.getElementsByClassName("skill-team")[0];
+        var exper=document.getElementById("exper");
+        var experParent=exper.parentNode;
+         var experTeam=document.getElementsByClassName("exper-team")[0];
+          info.onclick=function(){
+            infoParent.classList.add('active');
+            skillParent.classList.remove('active');
+            experParent.classList.remove('active');
+            infoTeam.style.display="";
+            skillTeam.style.display="none";
+            experTeam.style.display="none";
+        };
+        skill.onclick=function(){
+             infoParent.classList.remove('active');
+            skillParent.classList.add('active');
+            experParent.classList.remove('active');
+            infoTeam.style.display="none";
+            skillTeam.style.display="";
+            experTeam.style.display="none";
+        };
+        exper.onclick=function(){
+            infoParent.classList.remove('active');
+            skillParent.classList.remove('active');
+            experParent.classList.add('active');
+            infoTeam.style.display="none";
+            skillTeam.style.display="none";
+            experTeam.style.display="";
+        };
+    })();
+    </script>
+    </body>
+</html>

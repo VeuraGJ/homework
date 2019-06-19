@@ -35,7 +35,7 @@ CREATE TABLE subject (
   teacher varchar(8) NOT NULL,
   description varchar(30) DEFAULT NULL,
   PRIMARY KEY (id)
-) 
+) ;
 
 INSERT INTO subject VALUES ('1001', '语文', '王老师', '本次考试比较简单');
 INSERT INTO subject VALUES ('1002', '数学', '刘老师', '本次考试比较难');
